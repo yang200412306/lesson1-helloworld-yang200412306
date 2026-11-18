@@ -1,0 +1,14 @@
+{
+  "name": "helloworld-doubao",
+  "version": "1.0.0",
+  "private": true,
+  "description": "课堂练习一：Node.js HelloWorld 网站（零依赖，本地运行 + 服务器部署）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
