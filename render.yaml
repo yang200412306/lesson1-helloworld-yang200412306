@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: helloworld
+    runtime: node
+    plan: free
+    region: singapore
+    branch: main
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: SITE_OWNER
+        sync: false
